@@ -6,10 +6,6 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { Toaster } from "@/components/ui/toaster";
 import {
   ClerkProvider,
-  SignInButton,
-  SignedIn,
-  SignedOut,
-  UserButton
 } from '@clerk/nextjs'
 
 const geistSans = localFont({
@@ -54,7 +50,7 @@ export default function RootLayout({
           <NavigationBar/>
         {children}
         <Toaster/>
-      </ThemeProvider>
+        </ThemeProvider>
     </body>
   </html>
 </ClerkProvider>
