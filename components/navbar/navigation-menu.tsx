@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, navigationMenuTriggerStyle } from "../ui/navigation-menu";
 import { ModeToggle } from "../mode-toggle";
-import Image from "next/image";
+// import Image from "next/image";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 // import Logo from "@/app/assets/logo.png"
 
