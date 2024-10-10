@@ -9,7 +9,7 @@ export default function Home() {
             Why do drugs! When it leads to 
             <FlipWords words={words}/>
           </h1> <br/>
-          <p className="text-sm text-center animate-bounce"> Don't do drugs. </p>
+          <p className="text-sm text-center animate-bounce"> Don't do drugs! </p>
         </div>
       </div>
     </div>
